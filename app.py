@@ -10,7 +10,7 @@ temperatura = st.number_input(
     "Temperatura (°C)",
     value=23.0)
 
-if pH >= 6 or pH < 7:
+if pH >= 6 and pH < 7:
     st.write("pH adecuado")
     
     if temperatura <= 20 or temperatura >= 25:
