@@ -13,7 +13,7 @@ temperatura = st.number_input(
 if pH >= 6 and pH < 7:
     st.write("pH adecuado")
     
-    if temperatura <= 20 or temperatura >= 25:
+    if temperatura >= 20 and temperatura <= 25:
         st.write("Lote aceptable")
         
     else:
