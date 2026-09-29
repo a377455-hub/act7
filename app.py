@@ -5,8 +5,8 @@ st.title("Evaluación de un lote")
 pH = st.number_input(
     "pH",
     value=6.5)
-if pH <= 6 and pH > 7
-    st.write: "Revisar el pH"
+if pH <= 6 or pH > 7:
+    st.write("Revisar el pH")
 temperatura = st.number_input(
     "Temperatura (°C)",
     value=23.0)
