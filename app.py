@@ -4,13 +4,11 @@ st.title("Evaluación de un lote")
 
 pH = st.number_input(
     "pH",
-    value=6.5
-)
+    value=6.5)
 
 temperatura = st.number_input(
     "Temperatura (°C)",
-    value=23.0
-)
+    value=23.0)
 
 if st.button("Evaluar"):
 
