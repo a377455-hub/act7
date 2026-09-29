@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title("Evaluación de un lote")
 
-st.sidebar.title("Sarah Peña")
+st.sidebar.subtitle("Sarah Peña")
 st.sidebar.title("Programación")
 st.sidebar.title("Facultad de Ciencias Químicas")
 
