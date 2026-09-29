@@ -4,7 +4,7 @@ st.title("Evaluación de un lote")
 
 st.sidebar.title("Sarah Peña")
 st.sidebar.title("Programación")
-st.sidebar.title("FCQ")
+st.sidebar.title("Facultad de Ciencias Químicas")
 
 pH = st.number_input(
     "pH",
