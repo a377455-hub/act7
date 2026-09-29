@@ -18,6 +18,6 @@ if pH <= 6 or pH > 7:
 else: 
     st.write("Lote aceptable")
 
-if st.button("Evaluar"):
-    resultado = "Lote aceptable"
-    st.write(f"Resultado: {resultado}")
+#if st.button("Evaluar"):
+    #resultado = "Lote aceptable"
+    #st.write(f"Resultado: {resultado}")
